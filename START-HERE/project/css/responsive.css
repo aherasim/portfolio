@@ -1,0 +1,86 @@
+@media (min-width: 640px) {
+/*travel guide*/
+  .container {
+    width: 600px;
+    margin: 0 auto;
+  }
+  .topbar{
+    width:600px;
+  }
+  .menulist a{
+    font-size: 1em;
+    margin-left:0.3em;
+  }
+  /*newsletter*/
+  .image-wrapper {
+      width: 13em;
+}
+
+@media (min-width: 768px) {
+/*travel guide*/
+  .container {
+    width: 720px;
+    margin: 0 auto;
+  }
+  .topbar{
+    width:720px;
+  }
+  .palermo, .vilnius, .havana, .amsterdam, .barcelona, .cairo{
+   width:28.3%;
+   line-height:8em;
+}
+.menulist a{
+  margin-left:0.7em;
+}
+.allcities h1{
+  padding-top:1.5em;
+}
+/*newsletter*/
+}
+
+@media (min-width: 990px) {
+/*travel guide*/
+  .container {
+    width: 960px;
+  }
+  .topbar{
+    width:960px;
+  }
+  .menulist a{
+    margin-left:2.5em;
+  }
+  .allcities h1{
+    padding-top:1.5em;
+  }
+/*newsletter*/
+article {
+  width:47%;
+  float:left;
+  margin:1.5%
+}
+.image-wrapper {
+    width: 15em;
+}
+}
+
+@media (min-width: 1200px) {
+/*travel guide*/
+  .container {
+    width: 1180px;
+  }
+  .topbar{
+    width:1180px;
+  }
+  .allcities h4{
+  line-height:10em;
+  }
+/*newsletter*/
+article {
+  width:30%;
+  float:left;
+  margin:1.5%
+}
+.image-wrapper {
+    width: 12em;
+}
+}
